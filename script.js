@@ -1,23 +1,41 @@
 
 function validarformulario() {
   const nome = document.getElementById('nome').value;
+
   const idade = document.getElementById('idade').value;
+
   const altura = document.getElementById('altura').value;
+
   const dataNascimento = document.getElementById('data').value;
+
   const email = document.getElementById('email').value;
+
   const senha = document.getElementById('senha').value;
+
   const animal = document.getElementById('animal').checked;
+
   const irmaos = document.getElementById('irmaos').checked;
+
   const carro = document.getElementById('carro').checked;
+
   const modeloCarro = document.getElementById('modelo').value;
+
   const nomePai = document.getElementById('nomepai').value;
+
   const idadePai = document.getElementById('idadepai').value;
+
   const nomeMae = document.getElementById('nomemãe').value;
+
   const idadeMae = document.getElementById('idademãe').value;
+
   const time = document.getElementById('time').checked;
+
   const nomeTime = document.getElementById('nometime').value;
+
   const filme = document.getElementById('filme').value;
+
   const ator = document.getElementById('ator').value;
+  
 
   let isValid = true;
   let messages = [];
