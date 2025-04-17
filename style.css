@@ -1,9 +1,15 @@
 body {
-
+color: rgb(0, 0, 0) ;
     background-color: cadetblue;
 
-
-
-
-
 }
+
+.bloco {
+
+    margin: 50px;
+    background-color: gray;
+    width: 200px;
+    padding: 10px;
+    border-radius: 25px;
+}
+

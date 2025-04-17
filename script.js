@@ -1,31 +1,14 @@
 function validarformulario() {
 
-    const nome = document.getElementById('nome_pessoa').Value.trim();
+  function validarformulario() {
+    const nome = document.getElementById("nome").value;
+    const idade = document.getElementById("idade").value;
+    const altura = document.getElementById("altura").value;
+    const datanascimento = document.getElementById("datanascimento").value;
+    const email = document.getElementById("email").value;
+    const senha = document.getElementById("senha").value;
 
-
-
-
-
-    if (!nome) {
-
-        alert('coloque o nome');
-        return;
-
-    } else{ 
-  console.log(nome);
-
-    }
-
-
-
-
-
-
-
-
-
-
-}
+  }
 
 
 
